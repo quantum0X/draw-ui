@@ -22,9 +22,9 @@ const config = {
         primary: {
           black: "#14181F",
           green: "#56FFA6",
-          grey: {
+          gray: {
             100: "#2B303B",
-            200: "#202731",
+            200: "#333333",
             300: "#C4D3ED",
           },
         },

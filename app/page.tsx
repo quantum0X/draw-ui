@@ -1,9 +1,5 @@
-import { Room } from "./Room";
-
 export default function Page() {
   return (
-    <Room>
-      <h2>Hello</h2>
-    </Room>
+    <h2 className="text-white text-center">Draw UI</h2>
   );
 }
