@@ -59,8 +59,8 @@ const Live = () => {
         window.addEventListener('keydown', onKeyDown)
 
         return () => {
-            window.addEventListener('keyup', onKeyUp)
-            window.addEventListener('keydown', onKeyDown)
+            window.removeEventListener('keyup', onKeyUp)
+            window.removeEventListener('keydown', onKeyDown)
         }
     }, [updateMyPresence])
 
