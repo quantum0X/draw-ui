@@ -5,9 +5,9 @@ import Navbar from "@/components/Navbar";
 
 export default function Page() {
   return (
-    <div>
+    <div className="h-screen overflow-hidden">
       <Navbar />
-      <h2 className="text-white text-center">Draw UI</h2>
+
       <Live />
     </div>
   );
